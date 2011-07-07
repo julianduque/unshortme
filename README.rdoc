@@ -1,7 +1,14 @@
 = Unshortme
+
 A RubyGem for unshort.me API
 
+= Installation
+
+gem install unshortme
+
 = Usage
-require('unshortme')
-...
-unshorted = Unshortme.unshort("http://bit.ly/xxxx")
+
+  require 'rubygems'
+  require 'unshortme'
+
+  unshorted = Unshortme.unshort("http://bit.ly/xxxx")
