@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2011-07-07}
   s.description = %q{Use the unshort.me API}
   s.email = %q{julianduquej@gmail.com}
-  s.extra_rdoc_files = [%q{README.rdoc}, %q{lib/unshortme.rb}]
-  s.files = [%q{Manifest}, %q{README.rdoc}, %q{Rakefile}, %q{lib/unshortme.rb}, %q{unshortme.gemspec}]
+  s.extra_rdoc_files = [%q{CHANGELOG}, %q{README.rdoc}, %q{lib/unshortme.rb}]
+  s.files = [%q{CHANGELOG}, %q{README.rdoc}, %q{Rakefile}, %q{init.rb}, %q{lib/unshortme.rb}, %q{spec/spec_helper.rb}, %q{spec/unshortme_spec.rb}, %q{unshortme.gemspec}, %q{Manifest}]
   s.homepage = %q{http://github.com/julianduque/unshortme}
   s.rdoc_options = [%q{--line-numbers}, %q{--inline-source}, %q{--title}, %q{Unshortme}, %q{--main}, %q{README.rdoc}]
   s.require_paths = [%q{lib}]
