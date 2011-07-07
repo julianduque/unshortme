@@ -1,2 +1,7 @@
-= unshortme
+= Unshortme
 A RubyGem for unshort.me API
+
+= Usage
+require('unshortme')
+...
+unshorted = Unshortme.unshort("http://bit.ly/xxxx")
