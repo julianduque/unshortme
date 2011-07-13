@@ -8,7 +8,8 @@ Echoe.new('unshortme', '0.1.1') do |p|
   p.author          = "Julian Duque"
   p.email           = "julianduquej@gmail.com"
   p.ignore_pattern  = ["tmp/*", "script/*"]
-  p.development_dependencies = []
+  p.dependencies = ['json', 'rest-client']
+  p.development_dependencies = ['rspec']
 end
 
 Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
