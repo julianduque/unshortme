@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('unshortme', '0.1.1') do |p|
+Echoe.new('unshortme', '0.1.2') do |p|
   p.description     = "Use the unshort.me API"
   p.url             = "http://github.com/julianduque/unshortme"
   p.author          = "Julian Duque"
