@@ -2,6 +2,10 @@
 
 A RubyGem for unshort.me API
 
+What is unshort.me?
+
+{Unshort.me}[http://unshort.me] is a service that let you unshort any URL created using the URL shortening services. Currently, there are too many URL shortening services. Unshort.me provides a single place to unshort all those URLs.
+
 = Installation
 
 gem install unshortme
